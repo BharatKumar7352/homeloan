@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* menubar and carousel starts */
+.menubar{
+    background-color: orangered;
+}
+
+#demo .carousel-caption{
+    bottom: 75px;
+    left: 120px;
+    text-align: start;
+    right: 40%;
+}
+/* menubar and carousel ends */
+
+
+/* offer style starts */
+#offer .text-center::after{
+    content: "";
+    display: block;
+    width: 70px;
+    background: red;
+    height: 3px;
+    margin: 10px auto;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+#offer .row .card .card-body a{
+    color: orangered;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+#offer .card .card-body{
+margin: 20px;
+}
+#offer .row .card .card-body a i{
+    margin-bottom: 10px;
+}
+#offer .row .card .card-body p{
+    text-align: justify;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+#demo #caption{
+    text-align: left; 
+    left: 13%;
+}
+#offer .row .card:hover{
+    box-shadow: 0 0 30px rgb(162, 183, 250);
+
+}
+
+/* offer style ends */
+
+
+/* app style starts */
+#app .text-center::after{
+    content: "";
+    display: block;
+    width: 70px;
+    background: red;
+    height: 3px;
+    margin: 10px auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+
+#app img{
+    height: 300px;
+    width: 100%;
+    animation: bharat 1s ease infinite reverse;
+}
+@keyframes bharat{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+#app .row .card .card-body p{
+    text-align: justify;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+#app .row .card .card-header i{
+    color: orangered;
+    margin-right: 10px;
+}
+/* app style ends */
+
+
+
+
+
+/* news style starts */
+#news .text-center::after{
+    content: "";
+    display: block;
+    width: 100px;
+    background: red;
+    height: 3px;
+    margin: 10px auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+#news .card .card-body p{
+    text-align: justify;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#news  img{
+    width: 100%;
+    height: 250px;
+    transition: all ease 1s;
+}
+#news  img:hover{
+    transform: scale(1.5);
+}
+#news .class{
+    overflow: hidden;
+}
+.card .card-body>h4{
+    color: orangered;
+}
+
+/* news style ends */
+
+
+
+/* footer style starts */
+#footer{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    margin-top: 60px;
+}
+#footer .row{
+    display: flex;
+}
+#footer .row .style{
+    width: 25%;
+    padding: 70px;
+}
+#footer .row .style .p{
+    text-align: justify;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+#footer .row .style>h1{
+    margin-bottom: 10px;
+}
+#footer .row .style>h4{
+    color: orangered;
+    margin: 10px 0;
+}
+#footer .row .style .input{
+    margin-top: 10px;
+}
+#footer .rights{
+    background-color: rgb(26, 25, 25);
+    color: rgb(102, 101, 101);
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    /* display: flex;
+    padding-left: 110px; */
+    justify-content: space-between;
+}
+#footer .rights .foot{
+    color: orangered;   
+}
+#footer .rights .icons{
+    display: flex;
+}
+#footer .rights .icons a{
+    padding: 10px;
+    color: white;
+}
+
+#footer .input i{
+    padding: 14px;
+    border: 1px solid red;
+    margin-left: -1px;
+    background: red;
+    color: white;
+}
+#footer input{
+    border: none;
+    border: 1px solid rgb(93, 93, 93);
+    padding: 10px;
+    max-width: 300px;
+    background: black;
+}
+#footer .container .row #address>h5{
+    color: red;
+}
+
+#footer .right{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .rights{
+    border: 1px solid rgb(56, 56, 56);
+}
+#footer .rights .icons i{
+    padding: 5px;
+    color: white;
+}
+
+/* footer style ends */
